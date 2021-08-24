@@ -2,10 +2,8 @@
   "use strict";
 
   $(document).ready(function () {
-    $(".parent-container").magnificPopup({
+    $(".video-play-btn").magnificPopup({
       type: "video",
     });
   });
-
-  $(Window).load(function () {});
 })(jQuery);

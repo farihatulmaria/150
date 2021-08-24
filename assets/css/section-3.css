@@ -2,3 +2,6 @@ section {
   width: 100%;
   height: 100%;
 }
+.video-area-bg {
+  background: url("/assets/img/berries-2277_640.jpg");
+}
