@@ -3,5 +3,34 @@ section {
   height: 100%;
 }
 .video-area-bg {
-  background: url("/assets/img/berries-2277_640.jpg");
+  background: url("/assets/img/lake-6003727_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 44%;
+  height: 100%;
+  margin-top: 13px;
+  position: absolute;
+}
+.video-play-btn {
+  right: 0;
+  top: 53%;
+  background: #f002a8;
+  width: 20%;
+  text-align: center;
+  border-radius: 59%;
+  font-size: 36px;
+  color: #fff;
+  transition: all 1.5s;
+  padding: 20px;
+  position: absolute;
+}
+.video-play-btn:hover {
+  color: #fff;
+  background: #b107c7;
+}
+.video-text {
+  margin-top: 40px;
+}
+.video-text ul li i {
+  color: #2cb908;
 }
