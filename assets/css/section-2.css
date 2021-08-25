@@ -1,12 +1,12 @@
 section.bg-1 {
-  background: url("/assets/img/strawberries-99551_1920.jpg");
+  background: url("assets/img/strawberries-99551_1920.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 341px;
 }
 section.bg-2 {
-  background: url("/assets/img/blueberries-3460423_1920.jpg");
+  background: url("assets/img/blueberries-3460423_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
