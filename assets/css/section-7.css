@@ -1,0 +1,54 @@
+.section-padding {
+  margin-top: 50px;
+}
+.line {
+  height: 5px;
+  width: 25%;
+  margin-bottom: 14px;
+}
+h2 {
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s;
+}
+h2 span {
+  width: 0;
+  height: 15%;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background: #003cff;
+  z-index: -1;
+  transition: 0.8s;
+}
+h2:hover span {
+  width: 50%;
+}
+img {
+  border-radius: 50%;
+}
+.go {
+  margin-top: 50px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: darkblue;
+  background: crimson;
+}
+.slick-prev::before,
+.slick-next::before {
+  font-family: "slick";
+  font-size: 37px;
+  line-height: 1;
+  opacity: 0.75;
+}
+.slick-next::before {
+  margin-right: 0px !important;
+  background: #0022e6 !important;
+}
+.slick-prev::before {
+  margin-left: -40px !important;
+  background: #0022e6 !important;
+}
