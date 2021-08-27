@@ -1,3 +1,21 @@
+header {
+  background: url("/assets/img/header-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 img.login-img {
   width: 28px;
+}
+.model {
+  background: #f4f0f0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&display=swap");
+.slider-text {
+  font-family: "Dynalight", cursive;
+}
+li {
+  display: inline-block;
 }
