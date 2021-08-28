@@ -4,18 +4,64 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.slider-1 img {
+  position: inherit;
+  margin-left: 300px;
+}
 img.login-img {
   width: 28px;
 }
-.model {
-  background: #f4f0f0;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Dynalight&display=swap");
-.slider-text {
-  font-family: "Dynalight", cursive;
-}
 li {
   display: inline-block;
+}
+.search {
+  margin-top: 33px;
+  margin-right: 24px;
+}
+.menu li {
+  margin-top: 33px;
+  margin-right: 50px;
+}
+.search a {
+  margin-left: 40px;
+}
+.top-banner a {
+  color: #8e7589 !important;
+  font-weight: 600;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap");
+.slider-text {
+  font-family: "Fira Code", monospace;
+  position: absolute;
+  top: 30%;
+  left: 109px;
+  color: #e84f88;
+  line-height: 83px;
+}
+.big-menu li {
+  text-transform: uppercase;
+  font-size: 37px;
+  padding-top: 210px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: -5px;
+  transition: all 0.3s ease-in-out;
+}
+.big-menu li:hover {
+  font-weight: bold;
+}
+.product-btn:hover {
+  color: #f9f9f8;
+  background: #e84f88;
+  border-radius: 50px;
+}
+.product-btn {
+  padding: 37px 443px;
+  color: #e84f88;
+  background: #f9f9f8;
+  font-size: 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
