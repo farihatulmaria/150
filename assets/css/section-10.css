@@ -65,3 +65,252 @@ li {
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
+.product-1 {
+  background: url("/assets/img/model-1.png");
+}
+.product-2 {
+  background: url("/assets/img/model-3.png");
+}
+.product-3 {
+  background: url("/assets/img/model-2.png");
+}
+.product-4 {
+  background: url("/assets/img/model-5.png");
+}
+.product-5 {
+  background: url("/assets/img/model-6.png");
+}
+.product-6 {
+  background: url("/assets/img/model-7.png");
+}
+.product-7 {
+  background: url("/assets/img/model-8.png");
+}
+.product-8 {
+  background: url("/assets/img/model-7.png");
+}
+.product-9 {
+  background: url("/assets/img/model-9.png");
+}
+.product-10 {
+  background: url("/assets/img/model-10.png");
+}
+.brans-img {
+  margin-top: 175px;
+}
+.model {
+  position: relative;
+  background: #f4f0f0;
+}
+.model img {
+  position: absolute;
+  bottom: -16px;
+  height: 95%;
+}
+.offer-content {
+  background: #f8f5f5;
+}
+.offer-txt h2 {
+  color: #e84f88;
+}
+.offer-txt {
+  padding-top: 77px;
+  padding-left: 75px;
+  padding-right: 100px;
+}
+.offer-btn {
+  background: #51abc8;
+  color: #fff;
+  font-weight: 600;
+  padding: 13px 40px;
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+}
+.offer-btn:hover {
+  color: #51abc8;
+  background: #fff;
+}
+footer {
+  margin-top: 35px;
+  height: 200px;
+  background: #f4f4f4;
+}
+.footer-meun {
+  margin-top: 69px;
+}
+.footer-meun ul {
+  padding: 0;
+}
+.footer-meun li a {
+  color: #8e7589;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.brans-img img {
+  opacity: 0.1;
+  margin-left: 10%;
+}
+.contact {
+  margin-top: 69px;
+}
+.footer-icons a {
+  color: #8e7589;
+  margin-left: 26px;
+}
+.svg-inline--fa.fa-pinterest-p.fa-w-12 {
+  margin-left: 150px;
+}
+.contact-form .subcribe-btn {
+  padding: 10px 20px;
+  background: #e84f88;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.subcribe-btn:hover {
+  background: #fff;
+  color: #e84f88;
+}
+.contact-form {
+  margin-top: 18px;
+  margin-right: 21px;
+}
+.contact-form input {
+  padding: 10px 35px;
+  border: none;
+  color: #e0dde2;
+  background: #fff;
+}
+.product-area {
+  margin-top: 135px;
+  margin-bottom: 54px;
+}
+.product-items {
+  margin-left: -2%;
+  overflow: hidden;
+}
+.signle-product-item {
+  height: 300px;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 18%;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  float: left;
+  background-position: center bottom;
+  background-color: #f6efef;
+}
+.signle-product-item:nth-child(1) {
+  background-color: #f5eeee;
+}
+.signle-product-item:nth-child(2) {
+  height: 620px;
+  width: 70%;
+  background-color: #f5eeee;
+}
+
+.signle-product-item:nth-child(3) {
+  background-color: #f3f6f6;
+}
+
+.signle-product-item:nth-child(4) {
+  background-color: #f2f0eb;
+  width: 58%;
+}
+
+.signle-product-item:nth-child(5) {
+  background-color: #f2f0eb;
+}
+
+.signle-product-item:nth-child(6) {
+  background-color: #f1f5f2;
+}
+
+.signle-product-item:nth-child(7) {
+  background-color: #f1f5f6;
+}
+
+.signle-product-item:nth-child(8) {
+  background-color: #f0f4f1;
+}
+.signle-product-item:nth-child(9) {
+  background-color: #f2ebf3;
+  width: 42%;
+}
+
+.signle-product-item:nth-child(10) {
+  background-color: #f1f0eb;
+}
+.porduct-links a {
+  color: #8e7589;
+  padding: 4px;
+  display: inline-block;
+}
+.porduct-links {
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.product-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.product-info a {
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  font-size: 17px;
+  padding: 9px 26px;
+  line-height: 20px;
+  font-weight: 700;
+  left: 50%;
+  top: 39%;
+  margin-left: -44px;
+  position: absolute;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.product-info a:hover {
+  color: #51abc8;
+  background: #fff;
+}
+.product-info::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #51abc8;
+  opacity: 0.7;
+  content: "";
+  z-index: -1;
+}
+.product-txt {
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.product-txt .product-price {
+  color: #e84f88;
+  float: right;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.product-txt h4 {
+  font-size: 18px;
+  margin-top: 17px;
+}
+.product-txt span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #d9d4da;
+}

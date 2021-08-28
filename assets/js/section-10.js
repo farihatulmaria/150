@@ -8,4 +8,5 @@
     dots: true,
     nav: true,
   });
+  $(".product-items").masonry();
 })(jQuery);
