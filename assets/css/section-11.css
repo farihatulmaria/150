@@ -188,3 +188,55 @@ footer p {
 footer a {
   color: #000;
 }
+
+/* off canvas menu */
+
+#sidenav {
+  text-align: center;
+  float: right;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #000;
+  transition: 0.5s;
+}
+#sidenav ul {
+  margin-top: 90px;
+  margin-right: 34px;
+}
+#sidenav nav ul li {
+  margin: 50px 20px;
+}
+#sidenav nav ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: larger;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+#sidenav nav ul li a:hover {
+  padding: 20px 18px;
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+}
+#menu-btn {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  background: #000;
+  text-align: center;
+  align-items: center;
+  right: 30px;
+  top: 20px;
+  padding: 5px 5px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+#menu-btn svg {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 8px;
+}

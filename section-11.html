@@ -52,6 +52,33 @@
                   <li><a href="#" style="margin-right: 23px">travel</a></li>
                 </ul>
               </div>
+              <div id="sidenav">
+                <nav>
+                  <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">features</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">textimontials</a></li>
+                    <li><a href="#">contact us</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div id="menu-btn">
+                <i id="menu" class="fas fa-bars"></i>
+              </div>
+              <script>
+                var menubtn = document.getElementById("menu-btn");
+                var sidenav = document.getElementById("sidenav");
+                var menu = document.getElementById("menu");
+                menubtn.onclick = function () {
+                  if (sidenav.style.right == "-250px") {
+                    sidenav.style.right = "0";
+                  } else {
+                    sidenav.style.right = "-250px";
+                  }
+                };
+              </script>
+            
             </div>
           </div>
           <div class="row">
@@ -66,8 +93,9 @@
       <div class="about">
         <div class="container">
           <div class="row">
-            <div class="col-md-10 offset-1">
+            <div class="col-md-10 col-sm-12 col-lg-12">
               <div class="about-text">
+                <blockquote>
                 <h6>photodiary</h6>
                 <h5>The perfect weekend getaway</h5>
                 <p>
@@ -91,7 +119,9 @@
                   voluptatem.
                 </p>
                 <a href="#">Leave a comment</a>
+              </blockquote>
               </div>
+              
             </div>
           </div>
         </div>

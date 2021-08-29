@@ -1,17 +1,95 @@
 /* Resoppistive css */
+@media screen and (max-width: 1400px) {
+  #sidenav {
+    display: none;
+  }
+  #menu-btn {
+    display: none;
+  }
+  #menu-btn svg {
+    display: none;
+  }
+}
 @media screen and (max-width: 1200px) {
+  #sidenav {
+    display: none;
+  }
+  #menu-btn {
+    display: none;
+  }
+  #menu-btn svg {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 980px) {
+  .slider img {
+    min-width: 1000px;
+  }
+  #sidenav {
+    display: none;
+  }
+  #menu-btn {
+    display: none;
+  }
+  #menu-btn svg {
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 640px) {
+  .main-menu {
+    display: none;
+  }
+  #sidenav {
+    display: block;
+  }
+  #menu-btn {
+    display: block;
+  }
+  #menu-btn svg {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .slider img {
+    min-width: 400px;
+    height: 300px;
+    margin-left: -6px;
+  }
+  .main-menu {
+    display: none;
+  }
+  #sidenav {
+    display: block;
+  }
+  #menu-btn {
+    display: block;
+  }
+  #menu-btn svg {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 320px) {
+  .slider img {
+    min-width: 400px;
+    height: 300px;
+    margin-left: -6px;
+  }
+  .main-menu {
+    display: none;
+  }
+  #sidenav {
+    display: block;
+  }
+  #menu-btn {
+    display: block;
+  }
+  #menu-btn svg {
+    display: block;
+  }
 }
