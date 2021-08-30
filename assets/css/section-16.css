@@ -1,0 +1,52 @@
+section {
+  margin-top: 50px;
+}
+.service-title {
+  margin-bottom: 60px;
+}
+.borders {
+  text-align: center !important;
+}
+.borders span {
+  text-align: center;
+  height: 7px;
+  background: #09e6c8;
+  display: inline-block;
+  width: 64px;
+  border-radius: 3px;
+}
+.black-border {
+  background: #000 !important;
+  width: 47px !important;
+  margin: 0 14px;
+}
+.signle-serivce {
+  margin-bottom: 30px;
+}
+.border-img img {
+  width: 118%;
+  position: absolute;
+  float: left;
+  right: -6px;
+  bottom: 7px;
+}
+.staffs {
+  float: right;
+  height: 90%;
+}
+.border-img {
+  position: relative;
+  background: #09e6c8;
+  height: 78px;
+}
+.big-border-img {
+  background: #09e6c8;
+  height: 78%;
+  width: 57%;
+  margin-left: 185px;
+  margin-top: 24px;
+}
+.staffs {
+  height: 77%;
+  float: right;
+}
