@@ -79,10 +79,15 @@ svg {
   bottom: 21px;
 }
 .slick-dots li {
-  color: #ffd000;
-  background: #ffd000;
+  color: #fff;
+  background: #fff;
   font-size: 9px;
   font-weight: 600;
   border-radius: 50%;
   margin-right: 26px;
+}
+
+li.slick-active {
+  color: #ffd000;
+  background: #ffd000;
 }
