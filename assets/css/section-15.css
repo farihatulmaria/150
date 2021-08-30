@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+body {
+  background: #000;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+header {
+  background: linear-gradient(120deg, #0a2d61, #0a3f8f);
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+  color: #fff !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.top-banner {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.logo h3 {
+  font-size: 40px;
+  text-transform: full-width;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.top-banner a {
+  text-transform: capitalize;
+  color: #fff;
+  margin-right: 14px;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.top-banner a:hover {
+  background: #fff;
+  color: #0a2d61;
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+.header-txt {
+  margin-top: 9%;
+}
+.header-txt h3 {
+  font-size: 45px;
+  line-height: 59px;
+  margin-bottom: 33px;
+}
+.header-txt p {
+  font-size: 20px;
+  margin-bottom: 23px;
+}
+.header-txt .header-btn {
+  border: 1px solid #fff;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 13px 35px;
+  margin-top: 9px;
+  font-size: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.header-btn:hover {
+  background: #fff;
+  color: #0a2d61;
+}
