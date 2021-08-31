@@ -16,7 +16,7 @@ section {
   text-transform: capitalize;
 }
 .main-menu a:hover,
-.main-menu a.active,
+.main-menu .active,
 .on-hover a,
 .on-hover span {
   color: #0099ff;

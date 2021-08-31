@@ -41,11 +41,11 @@
           <div class="col-md-12">
             <div class="main-menu">
               <ul>
-                <li><a href="#" class="active">all</a></li>
-                <li><a href="#">web</a></li>
-                <li><a href="#">graphics</a></li>
-                <li><a href="#">photos</a></li>
-                <li><a href="#">designs</a></li>
+                <li><a href="#" class="active" data-filler="*">all</a></li>
+                <li><a href="#" data-filler=" .web">web</a></li>
+                <li><a href="#" data-filler=" .graphics">graphics</a></li>
+                <li><a href="#" data-filler=" .photos">photos</a></li>
+                <li><a href="#" data-filler=" .designs">designs</a></li>
               </ul>
             </div>
           </div>
@@ -55,7 +55,7 @@
     <section>
       <div class="container">
         <div class="row product-list">
-          <div class="col-md-4">
+          <div class="col-md-4 graphics photos">
             <div class="single-product">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -63,7 +63,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 web graphics photos">
             <div class="single-product product-2">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -71,7 +71,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 graphics web">
             <div class="single-product product-3">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -79,7 +79,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 designs">
             <div class="single-product product-4">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -87,7 +87,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 designs web">
             <div class="single-product product-5">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -95,7 +95,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 designs web">
             <div class="single-product product-6">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -103,7 +103,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 graphics">
             <div class="single-product product-7">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -112,7 +112,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 designs graphics">
             <div class="single-product product-8">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -120,7 +120,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 graphics web photo">
             <div class="single-product product-9">
               <div class="on-hover">
                 <a href="#"><i class="fas fa-arrows-alt"></i></a>
@@ -137,12 +137,13 @@
       (function ($) {
         "use strict";
 
-        $(document).ready(function () {
-          $(".product-list").masonry({});
+        $(document).ready(function () {});
+        $(window).ready(function () {
+          $(".product-list").isotope({});
         });
       })(jQuery);
     </script>
-    <script src="/assets/third-party/masonry/js/masonry.pkgd.min.js"></script>
+    <script src="/assets/third-party/Isotope-v3.0.6/Isotope-v3.0.6.js"></script>
     <script src="assets/third-party/bootstrap-5.0.2/js/bootstrap.min.js"></script>
     <script src="assets/third-party/slick slider/js/slick.js"></script>
     <script src="assets/third-party/fontawesome-free-5.15.3/js/all.min.js"></script>
