@@ -1,0 +1,20 @@
+header {
+  margin-top: 20px;
+}
+section {
+  margin-top: 40px;
+}
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+  color: #000;
+  display: block;
+  margin-right: 20px;
+  transition: all 0.5s ease-in-out;
+  text-transform: capitalize;
+}
+.main-menu a:hover,
+.main-menu a.active {
+  color: #07116b;
+}
