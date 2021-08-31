@@ -8,6 +8,7 @@ section {
   display: inline-block;
 }
 .main-menu ul li a {
+  cursor: pointer;
   color: #000;
   display: block;
   margin-right: 20px;
@@ -15,6 +16,106 @@ section {
   text-transform: capitalize;
 }
 .main-menu a:hover,
-.main-menu a.active {
-  color: #07116b;
+.main-menu a.active,
+.on-hover a,
+.on-hover span {
+  color: #0099ff;
+}
+.product-list .col-md-4 {
+  margin-right: -7.5px;
+  margin-bottom: 15px;
+}
+.single-product:hover .on-hover {
+  opacity: 1;
+}
+.single-product {
+  margin-bottom: 7.5px;
+}
+.single-product {
+  height: 300px;
+  background: url("/assets/img/about-img-3.jpg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+}
+.single-product {
+  background-color: #ddd;
+  position: relative;
+  z-index: 2;
+}
+
+.product-2 {
+  background: url("/assets/img/blueberries-3460423_1920.jpg");
+  background-position: center center;
+}
+.product-3 {
+  background: url("/assets/img/berries-2277_640.jpg");
+}
+
+.product-4 {
+  background: url("/assets/img/kid-6312635_1280.jpg");
+}
+.product-5 {
+  background: url("/assets/img/woman-1149911_1280.jpg");
+}
+.product-6 {
+  background: url("/assets/img/staff.jpg");
+}
+
+.product-7 {
+  background: url("/assets/img/about-img-2.jpg.png");
+}
+.product-8 {
+  background: url("/assets/img/about-img-4.jpg.png");
+}
+.product-9 {
+  background: url("/assets/img/about-img-5.jpg.png");
+}
+.on-hover {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.on-hover::after {
+  background: #000;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+.on-hover h4 {
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+.on-hover span {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.on-hover a {
+  color: #fff;
+  position: absolute;
+  right: 19px;
+  top: 8px;
+}
+
+/* 
+:nth-child() */
+
+.product-list .col-md-4:nth-child(2) .single-product,
+.product-list .col-md-4:nth-child(4) .single-product,
+.product-list .col-md-4:nth-child(6) .single-product {
+  height: 600px;
 }
