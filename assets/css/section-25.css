@@ -1,0 +1,23 @@
+/* 
+.one::after,
+.one::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: #ffc145;
+  bottom: 0;
+  z-index: 100;
+}
+.one::before {
+  right: 50%;
+  transform: skew(0, 20deg);
+}
+.one::after {
+  left: 50%;
+  transform: skew(0, -20deg);
+}
+.one {
+  background: #ffc145;
+  position: relative;
+} */
