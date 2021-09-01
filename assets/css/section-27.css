@@ -23,61 +23,6 @@
   margin: 50px 0;
 } */
 
-.main-content {
-  padding: 62px 109px;
-  padding-bottom: 158px;
-  background-color: #f8f8f8;
-  margin-left: -12px;
-}
-.main-content h6 {
-  text-transform: capitalize;
-  font-weight: 600;
-  font-size: 18px;
-  font-style: italic;
-  color: #0391aaa9;
-  font-family: "Playfair Display", serif;
-}
-.main-content h2 {
-  font-size: 36px;
-  color: #292929;
-  margin-bottom: 30px;
-  margin-top: -20px;
-}
-.main-content h5 {
-  color: #292929;
-  margin-bottom: 35px;
-}
-.main-content p {
-  color: #000;
-  line-height: 1.7;
-  opacity: 0.7;
-  margin-bottom: 44px;
-}
-.main-content a {
-  background: #0c94d3;
-  margin-right: 29px;
-  font-size: 14px;
-  font-weight: 800;
-  color: #fff;
-  border-radius: 50px;
-  text-transform: capitalize;
-  border: 2px solid #0c94d3;
-  padding: 14px 34px;
-  transition: all 0.5s ease;
-}
-.main-content a:hover {
-  background: transparent;
-  color: #0c94d3;
-}
-.main-content a:nth-child(2) {
-  background: transparent;
-  color: #0c94d3;
-  border: 2px solid #00a8cc;
-}
-.main-content a:nth-child(2):hover {
-  background: #00a8cc;
-  color: #fff;
-}
 .option {
   color: #f6acc8;
   background: #fff;
@@ -145,4 +90,60 @@
 }
 .option:nth-child(4):hover .on-hover {
   opacity: 1;
+}
+
+.main-content {
+  padding: 62px 109px;
+  padding-bottom: 158px;
+  background-color: #f8f8f8;
+  margin-left: -12px;
+}
+.main-content h6 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: italic;
+  color: #0391aaa9;
+  font-family: "Playfair Display", serif;
+}
+.main-content h2 {
+  font-size: 36px;
+  color: #292929;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+.main-content h5 {
+  color: #292929;
+  margin-bottom: 35px;
+}
+.main-content p {
+  color: #000;
+  line-height: 1.7;
+  opacity: 0.7;
+  margin-bottom: 44px;
+}
+.main-content a {
+  background: #0c94d3;
+  margin-right: 29px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+  border-radius: 50px;
+  text-transform: capitalize;
+  border: 2px solid #0c94d3;
+  padding: 14px 34px;
+  transition: all 0.5s ease;
+}
+.main-content a:hover {
+  background: transparent;
+  color: #0c94d3;
+}
+.main-content a:nth-child(2) {
+  background: transparent;
+  color: #0c94d3;
+  border: 2px solid #00a8cc;
+}
+.main-content a:nth-child(2):hover {
+  background: #00a8cc;
+  color: #fff;
 }
