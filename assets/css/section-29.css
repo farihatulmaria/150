@@ -1,0 +1,12 @@
+header {
+  background: url("/assets/img/pasta-1181189_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.home-page-text {
+  background: #fff;
+  padding: 80px;
+  opacity: 0.7;
+}
