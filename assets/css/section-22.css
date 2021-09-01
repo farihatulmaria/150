@@ -1,0 +1,49 @@
+.events {
+  background: #000;
+
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  line-height: 26px;
+}
+.events p {
+}
+.events h2 {
+  text-transform: capitalize;
+}
+.events .event-icon svg {
+  font-size: 54px;
+  color: #fff;
+  margin-bottom: 19px;
+}
+.event-btn {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-size: 12px;
+  transition: all 0.5s ease-in-out;
+}
+.event-btn:hover {
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+}
+.skrollr-bg {
+  background: url("/assets/img/blueberries-3460423_1920.jpg");
+  height: 100%;
+}
+.skrollr-bg-2 {
+  background: url("/assets/img/berries-2277_640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.skrollr-bg-3 {
+  background: url("/assets/img/strawberries-99551_1920.jpg");
+  height: 50%;
+  text-align: center;
+}
+section:nth-child(1) {
+  height: 100%;
+}
