@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 body {
+  color: #999999e3;
   font-family: "Playfair Display", serif;
 }
 section {
   padding-top: 60px;
   background: #f0f0f0;
+  padding-bottom: 80px;
 }
 .header-btn {
   margin-top: 48px;
@@ -21,4 +23,43 @@ section {
 .header-btn:hover {
   border-radius: 0;
   color: #fff;
+}
+h1 {
+  font-weight: 300;
+  color: #313133;
+}
+
+.header-info p {
+  margin-top: 40px;
+  margin-left: 14px;
+  margin-right: 54px;
+}
+.header-imgs {
+  position: relative;
+}
+.header-info {
+  padding: 5px;
+}
+.header-imgs img {
+  box-shadow: 0 0 17px #313131;
+}
+.header-imgs img:nth-child(1) {
+  z-index: 1;
+  width: 57%;
+  position: absolute;
+  top: -52px;
+}
+.header-imgs img:nth-child(2) {
+  width: 59%;
+  position: absolute;
+  top: 79px;
+  z-index: 2;
+  right: 6px;
+}
+.header-imgs img:nth-child(3) {
+  width: 61%;
+  position: absolute;
+  top: 306px;
+  z-index: 3;
+  left: -59px;
 }
