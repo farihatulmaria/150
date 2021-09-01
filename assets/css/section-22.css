@@ -1,6 +1,4 @@
 .events {
-  background: #000;
-
   color: #fff;
   padding: 50px;
   text-align: center;
@@ -34,16 +32,89 @@
   height: 100%;
 }
 .skrollr-bg-2 {
-  background: url("/assets/img/berries-2277_640.jpg");
+  background: url("/assets/img/woman-1149911_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 90%;
 }
 .skrollr-bg-3 {
   background: url("/assets/img/strawberries-99551_1920.jpg");
-  height: 50%;
+  height: 30%;
   text-align: center;
 }
 section:nth-child(1) {
   height: 100%;
+}
+.events-info {
+  padding-left: 26%;
+  padding-right: 23%;
+}
+.section-table {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.section-tablecell {
+  vertical-align: middle;
+  width: 100%;
+}
+.overlay {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.overlay::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background: #000;
+  z-index: -1;
+  content: "";
+}
+.events {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.events::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background: #000;
+  z-index: -1;
+  content: "";
+}
+.video-box {
+  margin-top: 160px;
+  text-align: center;
+  color: #fff;
+}
+.video-box h2 {
+  font-weight: 300;
+}
+.video-play-btn {
+  background: #fff;
+  color: #333;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  line-height: 30px;
+  border: 3px solid #fff;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+}
+.video-play-btn:hover {
+  color: #fff;
+  background: transparent;
+  border: 3px solid #fff;
+}
+.video-play-btn svg {
+  margin-top: 35px;
 }

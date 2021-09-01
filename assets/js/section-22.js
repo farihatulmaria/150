@@ -6,4 +6,5 @@
       type: "video",
     });
   });
+  $(Window).load(function () {});
 })(jQuery);
