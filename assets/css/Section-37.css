@@ -1,0 +1,103 @@
+.product-area {
+  height: 100%;
+  width: 100%;
+  background: url("/assets/img/port.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.product-area::after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+}
+.single-slider-product {
+  margin-top: 130px;
+}
+
+.product-txt h2 {
+  letter-spacing: 1px;
+  font-size: 29px;
+  position: relative;
+  margin-bottom: 37px;
+}
+.product-txt h2:hover::after {
+  width: 20%;
+}
+.product-txt h2::after {
+  position: absolute;
+  left: 0;
+  bottom: -17px;
+  background: linear-gradient(120deg, #fa1e0e, orange);
+  height: 4px;
+  width: 0%;
+  content: "";
+  transition: 0.5s ease-in-out;
+}
+.product-txt p {
+  color: #f5f5f5f5;
+  font-weight: 100;
+  font-size: 15px;
+}
+.product-info-btn {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #fa1e0e;
+  padding: 10px 16px;
+  transition: 0.5s ease-in-out;
+}
+.product-info-btn:hover {
+  background: #fa1e0e;
+  color: #fff;
+}
+.product-info-btn svg {
+  margin-left: 45px;
+}
+.product {
+  position: relative;
+  z-index: 2;
+  margin-top: 78px;
+}
+.price-box {
+  position: absolute;
+  right: 37px;
+  top: -139px;
+  background: #fa1e0e;
+  text-align: center;
+  text-transform: uppercase;
+  width: 28%;
+  height: 100%;
+  z-index: -1;
+  padding-top: 35px;
+  font-size: 27px;
+}
+.price-box p {
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 600;
+  font-weight: 600;
+}
+.price-box p.price {
+  opacity: 1;
+  font-size: 27px;
+}
+.price-box a {
+  position: absolute;
+  background: #fff;
+  color: #000;
+  padding: 12px 20px;
+  top: 26px;
+  left: -49px;
+  font-size: 23px;
+  box-shadow: 0 0 10px #666;
+}
