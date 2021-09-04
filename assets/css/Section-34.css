@@ -3,7 +3,7 @@
   font-family: "Mr De Haviland", cursive;
 }
 .welcome-area {
-  background: url("assets/img/coffee.jpg");
+  background: url("/assets/img/coffee.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
@@ -22,7 +22,6 @@
 .logo h1 a::after {
   position: absolute;
   left: -3px;
-  border: ;
   bottom: -8px;
   content: "";
   background: #fff;
