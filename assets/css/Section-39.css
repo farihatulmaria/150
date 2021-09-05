@@ -1,0 +1,64 @@
+/* pricing-table */
+.pricing-table {
+  margin-top: 80px;
+}
+.pricing-offer {
+  border-radius: 8px;
+  box-shadow: 0 0 10px #7c7c7c;
+}
+.pricing-head {
+  background: #f5f5f5;
+  padding: 31px 0;
+}
+.pricing-head2 {
+  background: #ff0055;
+  color: #fff;
+  position: relative;
+  z-index: -1;
+}
+span {
+  position: absolute;
+  top: 20px;
+  background: #fff;
+  color: #ff0055;
+  font-weight: 700;
+  padding: 6px 57px;
+  transform: rotate(35deg);
+  right: -30px;
+}
+.pricing-head p {
+  padding: 0 50px;
+}
+.pricing-head h1 {
+  font-size: 67px;
+  font-weight: 400;
+  line-height: 1;
+}
+.pricing-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.pricing-body ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+.pricing-body ul li {
+  line-height: 2;
+}
+.buying-btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background: #ff0055;
+  border-radius: 32px;
+  padding: 7px 23px;
+  border: 1px solid #ff0055;
+  transition: all 0.5s ease-in-out;
+}
+.btn-1,
+.btn-2,
+.buying-btn:hover {
+  background: transparent;
+  color: #ff0055;
+}
