@@ -1,0 +1,41 @@
+/* clients */
+.clients {
+  background: url("/assets/img/port.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.clients::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  z-index: 1;
+  content: "";
+  width: 100%;
+}
+
+/* slider css*/
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  margin: -2px 16px;
+  padding: 0;
+  cursor: pointer;
+  background: #ddd;
+  transition: 0.5s ease;
+}
+li.slick-active {
+  background: #fff;
+}

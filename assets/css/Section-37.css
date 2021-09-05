@@ -101,3 +101,34 @@
   font-size: 23px;
   box-shadow: 0 0 10px #666;
 }
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  margin: -2px 16px;
+  padding: 0;
+  cursor: pointer;
+  background: #666;
+  transition: 0.5s ease;
+}
+li.slick-active {
+  background: red;
+}
+.slick-dots {
+  position: absolute;
+  top: 75px;
+  display: block;
+  width: 29%;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  transform: rotate(90deg);
+  right: 56px;
+}
