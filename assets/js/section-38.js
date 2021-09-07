@@ -5,6 +5,7 @@
       dots: true,
       slidesToScroll: 1,
       autoplay: true,
+      autoplaySpreed: 900,
     });
   });
 })(jQuery);
