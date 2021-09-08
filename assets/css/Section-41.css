@@ -18,8 +18,20 @@
   margin-top: 50px;
 }
 .single-project {
+  border-radius: 8px;
   height: 300px;
   position: relative;
+  z-index: 2;
+}
+.single-project::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
+  z-index: -1;
 }
 .single-project:hover .link-hover {
   opacity: 1;
@@ -52,6 +64,7 @@
   left: 22px;
   opacity: 0;
   transition: all 0.5s ease-in-out;
+  z-index: 2;
 }
 a.borwse-btn {
   color: #fff;
@@ -66,8 +79,33 @@ a.borwse-btn:hover {
   color: #000;
 }
 
-.row .col-md-4 {
-  margin-bottom: 21px;
-  margin-left: -3px;
-  margin-right: 2px;
+/* slider css*/
+.slick-slide {
+  margin: 0 20px;
+}
+.slick-list {
+  margin: 0 -20px;
+}
+.slick-dots {
+  bottom: -68px;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin: -2px 16px;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 5px solid #c8c8c8;
+  transition: 0.5s ease;
+  border-radius: 50%;
+}
+li.slick-active {
+  background: #c8c8c8;
 }
