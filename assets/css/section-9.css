@@ -24,22 +24,19 @@ p {
   margin: 0 14px;
 }
 .single-comments {
-  padding-top: 29px;
-  padding-bottom: 29px;
-  padding-right: 3px;
-  padding-left: 100px;
+  padding: 29px 3px 29px 100px;
+  margin-bottom: 20px;
   font-size: small;
   position: relative;
-  border: 1px solid #666;
+  border: 1px solid #ddd;
   transition: all 0.5s ease-in-out;
 }
 .single-comments:hover {
   transform: translate(7px);
-  box-shadow: 0 0 10px #666666;
+  box-shadow: 0 0 10px #ddd;
 }
-.single-comments::before {
+.single-comments span:nth-child(1) {
   position: absolute;
-  content: "\f10e";
   left: 27px;
   top: 50%;
   color: #14e90d;
@@ -47,12 +44,28 @@ p {
   line-height: 30px;
   margin-top: -15px;
 }
-.single-comments::after {
+.single-comments span:nth-child(2) {
   position: absolute;
-  content: "";
-  left: 50px;
+  left: 76px;
   top: 16px;
-  color: #000;
   height: 83%;
-  width: 9px;
+  width: 1px;
+  background: #ddd;
+}
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

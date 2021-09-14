@@ -11,8 +11,6 @@ header {
   border-left: none;
   border-right: none;
   color: #fff !important;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .top-banner {
@@ -70,4 +68,21 @@ header ul li {
 .header-btn:hover {
   background: #fff;
   color: #0a2d61;
+}
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

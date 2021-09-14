@@ -12,6 +12,9 @@
   width: 25%;
   margin-bottom: 14px;
 }
+.serivce-info {
+  padding: 24px 0;
+}
 h2 {
   font-weight: 400;
   position: relative;
@@ -42,14 +45,13 @@ h2:hover span {
 .service:hover {
   box-shadow: 0 0 10px #666;
 }
-
 .service-title {
   background: linear-gradient(120deg, #ff8800, #ffd900);
   width: 76%;
   height: 63px;
   margin-left: 43px;
   position: absolute;
-  top: 45%;
+  top: 39%;
   left: -1%;
 }
 h4 {
@@ -61,4 +63,21 @@ h4 {
 }
 .servi-more-info:hover svg {
   margin-left: 5px;
+}
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

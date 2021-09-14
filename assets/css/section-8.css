@@ -29,3 +29,32 @@ img {
 h2 {
   margin-bottom: 50px;
 }
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .offer:nth-child(2) {
+    box-shadow: 0 0 10px #666;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .offer {
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #666;
+  }
+  .section-btn {
+    background: #15c415;
+    color: #fff;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
