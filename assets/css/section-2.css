@@ -30,7 +30,7 @@ section.bg-2 {
 }
 section.bg-2 .zigzag-text::after {
   left: auto;
-  right: -4892%;
+  right: -4887%;
 }
 .boxed-btn {
   color: #fff;
@@ -57,4 +57,35 @@ section.bg-2 .zigzag-text::after {
 .line {
   height: 10px;
   background: #0be7b7;
+}
+/* 
+ */
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .zigzag-text p {
+    margin-bottom: 31px;
+    font-size: 15px;
+  }
+  .zigzag-text h3 {
+    padding-top: 35px;
+    font-size: 18px;
+  }
+  .boxed-btn {
+    padding: 5px 12px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

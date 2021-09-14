@@ -34,3 +34,20 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   box-shadow: 0 0 0px 100px white inset !important;
 }
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

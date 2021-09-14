@@ -40,3 +40,31 @@ section {
   margin-right: 22px;
   color: green;
 }
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .video-text {
+    margin-left: 424px;
+  }
+  .video-area-bg {
+    width: 50%;
+    height: 41%;
+  }
+  .video-play-btn {
+    width: 21%;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

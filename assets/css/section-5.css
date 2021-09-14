@@ -1,3 +1,6 @@
+img {
+  margin-bottom: 30px;
+}
 .section-padding {
   margin-top: 50px;
 }
@@ -16,4 +19,36 @@
 }
 .section-btn button {
   margin-bottom: 36px;
+}
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  img {
+    height: 87%;
+  }
+  .section-title {
+    margin-left: 21px;
+  }
+  .section-txt button {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .section-title {
+    margin-left: 34px;
+  }
+  .section-txt button {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }
