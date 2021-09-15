@@ -1,60 +1,66 @@
-.section-padding {
-  margin-top: 57px;
+/* main css */
+.pricing-table {
+  margin-top: 50px;
 }
 .pricing-title {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
-
-.pricing-title span {
-  color: #05d105;
+.pricing-title h2 {
+  text-transform: capitalize;
 }
-.offer {
-  border: 2px solid #66666661;
-  margin-right: 34px;
-  width: 22%;
-  padding: 34px;
-  font-size: 18px;
+.pricing-title h2 span {
+  color: #21db21;
 }
-.offer svg {
-  color: #05d105 !important;
+.pricing-title p {
+  padding: 10px 200px;
 }
-.offer h3 {
-  font-size: 22px;
+.pricing-content {
+  border: 1px solid #666;
+  padding: 54px 14px;
 }
-.offer ul {
+.pricing-head {
+  margin-bottom: 30px;
+}
+.pricing-head h2 {
+  text-transform: capitalize;
+}
+.pricing-head svg {
+  font-size: 74px;
+  margin-top: 8px;
+}
+svg {
+  color: #21db21;
+}
+.pricing-body ul {
+  margin: 0;
   padding: 0;
 }
-.offer li {
-  font-size: 16px;
-  margin-bottom: 14px;
+.pricing-body ul li {
+  line-height: 2.4;
 }
-.pricing-icon svg {
-  font-size: 14px;
+.pricing-body ul li svg {
+  margin-right: 6px;
+}
+.pricing-body p {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #777;
 }
 .pricing-btn {
-  background: #05d105;
-  border: 2px solid #05d105;
+  border-radius: 32px;
+  background: #21db21;
+  font-weight: 700;
+  text-transform: capitalize;
   color: #fff;
-  border-radius: 50px;
-  padding: 12px 26px;
+  border: 2px solid #21db21;
   transition: all 0.5s ease-in-out;
+  padding: 11px 31px;
 }
 .pricing-btn:hover {
   background: transparent;
-  color: #05d105;
+  color: #21db21;
 }
-.text-gray {
-  color: #666;
-}
-.svg-inline--fa.fa-user.fa-w-14 {
-  font-size: 96px;
-  margin: 24px;
-}
-h4 {
-  margin-top: 40px;
-  margin-bottom: 42px;
-}
-
 /* Resoppistive css */
 @media screen and (max-width: 1200px) {
 }
@@ -67,6 +73,12 @@ h4 {
 }
 
 @media screen and (max-width: 480px) {
+  .pricing-title p {
+    padding: 9px 0px;
+  }
+  .pricing-content {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 320px) {
