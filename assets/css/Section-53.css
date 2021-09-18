@@ -1,5 +1,5 @@
 header {
-  background: url("/assets/img/blueberries-3460423_1920.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/blueberries-3460423_1920.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -26,8 +26,6 @@ header {
 }
 .homwpage-slider {
   margin-top: 157px;
-}
-.slider-text {
 }
 .slider-text h1 {
   margin-bottom: 30px;

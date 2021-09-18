@@ -62,7 +62,7 @@ h3 {
 }
 .bg-1 {
   position: absolute;
-  background: url("/assets/img/office-594132_1920.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/office-594132_1920.jpg");
   background-position: center;
   background-size: cover;
   right: 0;
@@ -87,7 +87,7 @@ h3 {
 }
 .bg-2 {
   position: absolute;
-  background: url("/assets/img/italy.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/italy.jpg");
   background-position: center;
   background-size: cover;
   left: 0;

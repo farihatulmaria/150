@@ -25,7 +25,7 @@
 }
 /* section-1 */
 .skrollr-bg {
-  background: url("/assets/img/blueberries-3460423_1920.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/blueberries-3460423_1920.jpg");
   height: 100%;
 }
 .events {
@@ -112,7 +112,7 @@ section:nth-child(1) {
 }
 /* section-3 */
 .skrollr-bg-3 {
-  background: url("/assets/img/piano.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/piano.jpg");
   background-size: cover;
   height: 100%;
   text-align: center;

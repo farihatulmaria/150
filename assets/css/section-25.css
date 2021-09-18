@@ -1,9 +1,7 @@
 /* main section */
 
-.homepage-slider {
-}
 .single-slider {
-  background: url("/assets/img/office-594132_1920.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/office-594132_1920.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;

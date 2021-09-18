@@ -8,7 +8,7 @@ section:nth-child(3) {
 }
 /* main section */
 section.about-us {
-  background: url("/assets/img/italy.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/italy.jpg");
   height: 40%;
 }
 .dark {

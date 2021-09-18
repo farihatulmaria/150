@@ -1,6 +1,4 @@
 /* project */
-.project {
-}
 .section-title {
   margin: 50px 0;
 }
@@ -14,7 +12,7 @@
 }
 .bg-1 {
   background-color: #ddd;
-  background: url("/assets/img/port.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/port.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,7 +20,7 @@
 }
 .bg-2 {
   background-color: #ddd;
-  background: url("/assets/img/raspberries-1495713_1280.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/raspberries-1495713_1280.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +28,7 @@
 }
 .bg-3 {
   background-color: #ddd;
-  background: url("/assets/img/berries-2277_640.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/berries-2277_640.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +36,7 @@
 }
 .bg-4 {
   background-color: #ddd;
-  background: url("/assets/img/blueberries-3460423_1920.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/blueberries-3460423_1920.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,7 +44,7 @@
 }
 .bg-5 {
   background-color: #ddd;
-  background: url("/assets/img/piano.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/piano.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

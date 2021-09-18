@@ -3,7 +3,7 @@ section {
   height: 100%;
 }
 .video-area-bg {
-  background: url("/assets/img/piano.jpg");
+  background: url("https://farihatulmaria.github.io/150/assets/img/piano.jpg");
   background-position: center;
   background-size: cover;
   width: 44%;
