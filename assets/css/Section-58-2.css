@@ -1,0 +1,29 @@
+.header-txt {
+  position: relative;
+}
+.menu-trigger {
+  position: absolute;
+  top: -57px;
+  right: 89px;
+  font-size: 100px;
+}
+.offcanvas-menu {
+  background: none;
+  position: fixed;
+  top: 0;
+  right: 300px;
+  height: 100%;
+  padding: 0;
+}
+.offcanvas-menu.show-menu {
+  right: 0;
+}
+.menu-close svg {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  margin: 0;
+}
+.offcanvas-shade {
+  background: #000;
+}

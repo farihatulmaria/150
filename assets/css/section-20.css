@@ -6,17 +6,13 @@ section {
 }
 .main-menu ul li {
   display: inline-block;
-}
-.main-menu ul li a {
-  cursor: pointer;
-  color: #000;
-  display: block;
-  margin-right: 20px;
   transition: all 0.5s ease-in-out;
   text-transform: capitalize;
+  cursor: pointer;
+  margin-right: 20px;
 }
-.main-menu a:hover,
-.main-menu .active,
+.main-menu li:hover,
+.main-menu li.active,
 .on-hover a,
 .on-hover span {
   color: #0099ff;
@@ -47,30 +43,53 @@ section {
 
 .product-2 {
   background: url("/assets/img/blueberries-3460423_1920.jpg");
-  background-position: center center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .product-3 {
   background: url("/assets/img/berries-2277_640.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .product-4 {
   background: url("/assets/img/kid-6312635_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .product-5 {
   background: url("/assets/img/woman-1149911_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .product-6 {
   background: url("/assets/img/staff.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .product-7 {
   background: url("/assets/img/about-img-2.jpg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .product-8 {
   background: url("/assets/img/about-img-4.jpg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .product-9 {
   background: url("/assets/img/about-img-5.jpg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .on-hover {
   position: relative;
@@ -111,9 +130,7 @@ section {
   top: 8px;
 }
 
-/* 
-:nth-child() */
-
+/*:nth-child() */
 .product-list .col-md-4:nth-child(2) .single-product,
 .product-list .col-md-4:nth-child(4) .single-product,
 .product-list .col-md-4:nth-child(6) .single-product {
