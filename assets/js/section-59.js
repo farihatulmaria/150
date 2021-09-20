@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
-  jQuery(document).ready(function ($) {
-    $(".count").counterUp({
+  $(document).ready(function () {
+    $(".counter span").counterUp({
       delay: 10,
       time: 1000,
     });
