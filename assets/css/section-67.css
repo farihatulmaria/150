@@ -1,0 +1,147 @@
+/* header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 70px 0;
+}
+header a {
+  color: #fff;
+}
+.head {
+  padding: 35px 0;
+}
+.logo p {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.logo p svg {
+  color: #e2b935;
+  margin-right: 8px;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 0 20px;
+  font-weight: 700;
+}
+.main-menu ul li a {
+  font-size: 18px;
+}
+header a:hover {
+  color: #fff;
+}
+.homepage-slider {
+  padding: 44px 0;
+  line-height: 4;
+}
+.slider-txt {
+}
+.slider-txt span {
+  color: #999;
+  font-weight: 700;
+}
+.slider-txt h2 {
+  line-height: 1.6;
+}
+.slider-txt h2 span {
+  color: #e2b935;
+  font-size: 39px;
+  margin: 0 10px;
+}
+.about-btn {
+  color: #999;
+}
+.about-btn svg {
+  color: #999;
+  font-weight: 700;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1203px;
+}
+/* features */
+.features {
+  background: #e2b935;
+}
+.feature-title {
+  padding: 30px 0;
+}
+.feature-title h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.single-features {
+  background-color: #ddd;
+  background: url("https://farihatulmaria.github.io/150/assets/img/building.jpg");
+  display: inline-block;
+}
+.single-features {
+  width: 48%;
+  height: 303px;
+  margin: 18px 24px;
+}
+.single-features:nth-child(1) {
+  background: url("https://farihatulmaria.github.io/150/assets/img/building.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.single-features:nth-child(2) {
+  background: url("https://farihatulmaria.github.io/150/assets/img/building.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.single-features:nth-child(3) {
+  background: url("https://farihatulmaria.github.io/150/assets/img/building.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.single-features:nth-child(4) {
+  background: url("https://farihatulmaria.github.io/150/assets/img/building.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.small {
+  width: 36%;
+}
+/* footer */
+footer {
+}
+.footer-txt {
+}
+.footer-txt h3 {
+}
+.footer-txt p {
+}
+.footer-txt .contact-btn {
+}
+hr {
+  color: #999;
+  background: #999;
+}
+.copy-right {
+}
+.copy-right p {
+}
+.copy-right p svg {
+}
+.social-icons {
+}
+.social-icons a {
+}
+.social-icons a i {
+  color: #999;
+}
+.social-icons a:hover i {
+  color: #fff;
+}
