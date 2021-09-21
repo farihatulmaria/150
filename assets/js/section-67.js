@@ -7,7 +7,7 @@
       dots: false,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpreed: 5000,
+      autoplaySpreed: 2000,
     });
   });
 })(jQuery);

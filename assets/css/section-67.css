@@ -7,7 +7,7 @@ main {
 header {
   background: #222;
   color: #fff;
-  padding: 70px 0;
+  padding: 30px 0;
 }
 header a {
   transition: all 0.5s;
@@ -185,4 +185,8 @@ hr {
 }
 .social-icons a:hover svg {
   color: #fff;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
 }
