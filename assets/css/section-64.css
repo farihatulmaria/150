@@ -4,8 +4,6 @@ body {
 .about {
   margin-top: 50px;
 }
-.single-about {
-}
 .about-bg {
   position: absolute;
   left: 25%;
@@ -86,6 +84,4 @@ body {
 .about-txt h2 {
   font-size: 24px;
   font-weight: 500;
-}
-.about-txt p {
 }
