@@ -21,39 +21,49 @@ main {
   line-height: 0;
 }
 .top-banner svg {
-  margin-right: 5px;
   color: #fc721e;
 }
-.top-banner a {
-  color: #fff;
-  margin-right: 15px;
+.col-md-5.contact-links {
+  margin-top: 6px;
 }
-.top-banner-links {
-  margin-top: -5px;
+.col-md-5.contact-links svg {
+  margin-right: 5px;
+}
+.top-banner .contact-links {
+  padding: 0;
+}
+.contacts svg {
+  margin-left: 16px;
+  margin-right: 9px;
 }
 .social-icons {
-  float: right;
-  margin-top: 2px;
+  margin-left: 13px;
 }
 .social-icons a {
-  margin: 0;
-  padding: 12px 12px;
-  border-radius: 50%;
+  display: inline-block;
+  height: 39px;
+  width: 39px;
   border: 1px solid #fff;
-  margin-right: 6px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
   transition: all 0.5s ease-in-out;
+  margin: 0 5px;
 }
 .social-icons a:hover {
   background: #fc721e;
   border: 1px solid #fc721e;
+  color: #fff;
 }
 .social-icons a svg {
-  margin: 0;
   color: #fff;
+  margin-top: 10px;
+  transition: all 0.5s ease-in-out;
 }
 .social-icons a:hover svg {
   color: #fff;
 }
+
 /* top-banner ends form here */
 /* head starts form here */
 .head {
@@ -269,4 +279,193 @@ nav {
   background: transparent;
 }
 /* offer ends from here  */
+/* projects starts from here  */
+.projects {
+  padding: 90px 0;
+}
+.project-title {
+  margin-bottom: 78px;
+}
+.project-title h2 {
+  text-transform: uppercase;
+}
+.project-box {
+  transition: all 0.5s ease-in-out;
+}
+.project-box:hover .project-img::after {
+  opacity: 0.4;
+}
+.project-box:hover .project-txt h5 {
+  color: #fc721e;
+}
+.project-box:hover .project-view-btn {
+  color: #fc721e;
+}
+.project-img {
+  position: relative;
+  z-index: 1;
+}
+.project-img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  z-index: 2;
+  content: "";
+  transition: all 0.5s ease-in-out;
+}
+.project-txt {
+  padding: 45px 0;
+}
+.project-txt h5 {
+  transition: all 0.5s ease-in-out;
+  text-transform: capitalize;
+}
+.project-view-btn {
+  transition: all 0.5s ease-in-out;
+}
+.project-view-btn svg {
+  margin-left: 6px;
+  font-size: 14px;
+}
+/* projects ends from here  */
+/* team starts from here  */
+.team {
+  padding-bottom: 100px;
+}
+.team-title {
+  margin-bottom: 78px;
+}
+.team-info {
+  border: 1px solid #dbdbdb;
+  margin-top: 10px;
+  padding: 25px 13px;
+}
+.team-info p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.team-info span {
+  font-size: 16px;
+  color: #555;
+}
+.team-social-icon {
+  margin-top: 23px;
+}
+.team-social-icon a {
+  padding: 10px 11px;
+  border: 2px solid #000;
+  text-align: center;
+  color: #000;
+  margin: 0 6px;
+  transition: all 0.5s ease-in-out;
+}
+.team-social-icon a svg {
+  transition: all 0.5s ease-in-out;
+}
+.team-social-icon a:hover {
+  color: #fc721e;
+  border: 2px solid #fc721e;
+}
+/* team ends from here  */
+/* partners starts from here  */
+
+.partners-img {
+  padding: 78px 0;
+}
+.partners-img img {
+  width: 67%;
+}
+/* partners ends from here  */
 /* main ends from here */
+/* footer starts from here */
+footer {
+  background: #000;
+  color: #fff;
+  padding: 90px 0;
+  padding-bottom: 17px;
+}
+footer h4 {
+  position: relative;
+  margin-bottom: 31px;
+  font-size: 17px;
+}
+footer h4::after {
+  position: absolute;
+  bottom: -11px;
+  left: -1px;
+  width: 30%;
+  height: 2px;
+  background: #fc721e;
+  content: "";
+}
+.footer-about p {
+  color: #888686;
+  margin-bottom: 30px;
+}
+footer .social-icons {
+  margin: 30px 0;
+  margin-left: -10px;
+}
+footer .social-icons a {
+  height: 36px;
+  width: 36px;
+}
+footer .social-icons a svg {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.footer-nav nav ul {
+  margin: 0;
+}
+.footer-nav nav ul li {
+  margin-bottom: 9px;
+}
+.footer-nav nav ul li a {
+  color: #888686;
+}
+.footer-news p {
+  color: #888686;
+}
+.footer-news span {
+  color: #686767;
+  font-size: 14px;
+  font-weight: 300;
+}
+.footer-contact {
+  line-height: 48px;
+}
+.footer-contact svg {
+  color: #fc721e;
+  margin-right: 5px;
+}
+.footer-contact p {
+  line-height: 24px;
+}
+.footer-contact a {
+  color: #fff;
+}
+input {
+  margin-top: 13px;
+  border: 0;
+  outline: 0;
+  background: #222222;
+  color: #fff;
+  padding: 5px 28px;
+}
+.copy-right hr {
+  color: #888686;
+}
+.copy-right p {
+  color: #888686;
+}
+.copy-right p svg {
+  color: #888686;
+  margin-right: 4px;
+}
+/* footer ends from here */
