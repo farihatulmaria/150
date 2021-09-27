@@ -22,13 +22,13 @@ p {
   margin-top: -30px;
 }
 .img-1 {
-  background: url("/assets/img/work-1.png");
+  background: url("https://farihatulmaria.github.io/150/assets/img/work-1.png");
   background-position: center;
   background-size: cover;
   height: 450px;
 }
 .img-2 {
-  background: url("/assets/img/work-2.png");
+  background: url("https://farihatulmaria.github.io/150/assets/img/work-2.png");
   background-position: center;
   background-size: cover;
   height: 450px;
