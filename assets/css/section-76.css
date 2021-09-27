@@ -1,0 +1,31 @@
+.products {
+  margin-top: 80px;
+}
+.product-box {
+  border: 1px solid #ddd;
+  position: relative;
+}
+.product-box img {
+  width: 100%;
+}
+.product-info {
+  padding: 35px 0;
+  line-height: 2;
+}
+.product-info span {
+  color: #999;
+  font-size: 14px;
+}
+.product-btn {
+  color: #999;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  position: absolute;
+  bottom: -16px;
+  background: #fff;
+  right: 33%;
+  z-index: 999;
+  font-weight: 700;
+}
+.product-btn:hover {
+}
