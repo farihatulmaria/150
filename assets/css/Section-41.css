@@ -109,3 +109,22 @@ a.borwse-btn:hover {
 li.slick-active {
   background: #c8c8c8;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .link-hover {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

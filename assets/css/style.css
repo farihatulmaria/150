@@ -37,7 +37,9 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   box-shadow: 0 0 0px 100px white inset !important;
 }
-
+.slick-dots li button {
+  display: none;
+}
 /* Resoppistive css */
 @media screen and (max-width: 1200px) {
 }

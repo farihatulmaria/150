@@ -5,6 +5,7 @@
 .pricing-offer {
   border-radius: 8px;
   box-shadow: 0 0 10px #7c7c7c;
+  margin-bottom: 29px;
 }
 .pricing-head {
   background: #f5f5f5;
@@ -61,18 +62,6 @@
   position: relative;
   z-index: -1;
 }
-.pricing-head3 span {
-  text-transform: uppercase;
-  position: absolute;
-  top: 20px;
-  background: #fff;
-  color: #0084ff;
-  font-weight: 700;
-  padding: 3px 57px;
-  transform: rotate(35deg);
-  right: -30px;
-  font-size: 24px;
-}
 .btn-3 {
   background: #0084ff;
   border: 1px solid #0084ff;
@@ -116,4 +105,58 @@
 .btn-2:hover {
   background: transparent;
   color: #ff0055;
+}
+.pricing-head3 span,
+.pricing-head2 span,
+.pricing-head1 span {
+  text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  background: #fff;
+  font-weight: 700;
+  padding: 3px 57px;
+  transform: rotate(35deg);
+}
+.pricing-head3 span {
+  color: #0084ff;
+  right: -30px;
+  font-size: 24px;
+}
+.pricing-head2 span {
+  color: #ff0055;
+  right: -30px;
+  font-size: 24px;
+}
+.pricing-head1 span {
+  color: #255d17;
+  padding: 0px 84px;
+  right: -44px;
+  font-size: 35px;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .pricing-head p:nth-child(1) {
+    display: none;
+  }
+  .pricing-head p {
+    padding: 0 8px;
+  }
+  .pricing-head1 span,
+  .pricing-head2 span,
+  .pricing-head3 span {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

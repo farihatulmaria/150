@@ -6,6 +6,7 @@
       slidesToShow: 3,
       autoplay: true,
       autoplaySpeed: 300,
+      responsive: true,
     });
   });
 })(jQuery);

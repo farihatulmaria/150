@@ -93,3 +93,22 @@
 .project-hover svg {
   color: greenyellow;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .section-title p {
+    padding: 9px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
