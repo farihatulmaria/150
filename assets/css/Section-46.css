@@ -2,20 +2,8 @@ body .contact {
   background: url("https://farihatulmaria.github.io/150/assets/img/preview56.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 753px;
+  height: 871px;
   width: 1383px;
-}
-.contact-table {
-  background: rgb(160, 193, 215);
-  background: linear-gradient(
-    73deg,
-    rgba(160, 193, 215, 1) 0%,
-    rgba(136, 192, 237, 1) 22%,
-    rgba(185, 176, 224, 1) 39%,
-    rgba(235, 149, 207, 1) 51%,
-    rgba(242, 183, 174, 1) 78%,
-    rgba(247, 177, 141, 1) 100%
-  );
 }
 header {
   padding-top: 84px;
@@ -60,4 +48,23 @@ section {
   font-size: 30px;
   color: #b2acb1;
   margin: 0 14px;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

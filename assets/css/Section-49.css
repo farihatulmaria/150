@@ -68,4 +68,51 @@
   font-size: 14px;
   color: #ddd;
   margin-top: 5px;
+} /* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .comment-title p {
+    padding: 0;
+  }
+  .comment img {
+    width: 25%;
+    opacity: 1;
+  }
+  .comment-txt {
+    background: #17b794;
+    color: #fff;
+  }
+  .comment h5 {
+    opacity: 1;
+  }
+  .comment span {
+    opacity: 1;
+  }
+  .comment-txt::after {
+    position: absolute;
+    bottom: -13px;
+    left: 6px;
+    background: #17b794;
+    content: "";
+    width: 8%;
+    height: 27px;
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(45deg);
+  }
+  .comment {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

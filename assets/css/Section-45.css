@@ -4,9 +4,7 @@ a.video-play-btn {
   background-size: cover;
   height: 208%;
   width: 48%;
-  display: block;
   display: table;
-  margin-top: 50px;
   position: relative;
 }
 .play-btn {
@@ -52,4 +50,23 @@ a.video-play-btn:hover .video-overlay {
 }
 .video-overlay:hover::after {
   opacity: 0.6;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  a.video-play-btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

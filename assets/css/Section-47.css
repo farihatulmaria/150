@@ -83,3 +83,25 @@ li a h4 span {
   background: #fff;
   opacity: 1;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  h1 span::after {
+    display: none;
+  }
+  h1 span {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
