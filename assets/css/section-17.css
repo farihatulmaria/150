@@ -80,3 +80,47 @@ input[type="submit"]:hover {
 a svg {
   color: #0062ff;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  input[type="submit"] {
+    width: 45%;
+  }
+  .social-icon {
+    margin-left: 0;
+  }
+  .social-icon a {
+    padding: 14px 12px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  input[type="submit"] {
+    width: 67%;
+  }
+  .blue {
+    width: 100%;
+  }
+  .social-icon a {
+    padding: 14px 17px;
+  }
+  .social-icon {
+    margin-left: 26px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .contect-info svg {
+    left: -31px;
+    top: 6px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

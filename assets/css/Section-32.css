@@ -54,3 +54,41 @@ img {
   right: 113px;
   bottom: 0;
 }
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  img {
+    right: 17px;
+    bottom: 79px;
+    width: 200px;
+  }
+  .slider-txt {
+    margin-top: 81px;
+    padding: 21px;
+  }
+  .color-bg {
+    height: 91%;
+  }
+  section.slider {
+    height: 66%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    display: none;
+  }
+  .slider-heading span {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

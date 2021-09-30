@@ -50,19 +50,36 @@ section {
 }
 
 .scrollToTop {
-  width: 100px;
-  height: 130px;
-  padding: 10px;
+  width: 67px;
+  height: 67px;
+  padding: 20px;
   text-align: center;
   background: #000;
   font-weight: bold;
-  color: #444;
-  text-decoration: none;
+  color: #fff;
   position: fixed;
-  top: 75px;
+  top: 609px;
   right: 40px;
-  display: none;
+  border-radius: 50%;
+  transition: all 0.5s;
 }
 .scrollToTop:hover {
-  text-decoration: none;
+  color: #000;
+  background: #fff;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

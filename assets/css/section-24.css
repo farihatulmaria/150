@@ -91,3 +91,33 @@ a.free-con:hover {
 .about-us img {
   height: 80%;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .main-content {
+    margin: -21px -75px;
+    padding: 74px;
+  }
+  section:nth-child(1),
+  section:nth-child(3) {
+    padding: 101px 18px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .about-us {
+    margin-bottom: 365px;
+  }
+  .free-con {
+    margin: 30px 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

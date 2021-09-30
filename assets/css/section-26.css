@@ -21,6 +21,7 @@ h3 {
   top: -26px;
   content: "";
   transform: rotate(45deg);
+  z-index: 999;
 }
 
 .boxed-content::after {
@@ -94,4 +95,39 @@ h3 {
   bottom: 0;
   width: 50%;
   height: 100%;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+  .boxed-content::before {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .boxed-content::before {
+    right: -39px;
+    top: -55px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .bg-1 {
+    display: none;
+  }
+  .bg-2 {
+    display: none;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .boxed-content::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }

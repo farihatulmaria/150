@@ -4,8 +4,8 @@
     $(".sliders").slick({
       dots: true,
       slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
+      // autoplay: true,
+      // autoplaySpeed: 2000,
     });
     $(".menu-trigger").on("click", function () {
       $(".offcanvas-menu").addClass("show-menu");

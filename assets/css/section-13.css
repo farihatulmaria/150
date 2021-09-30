@@ -86,6 +86,9 @@
     margin-left: 0px;
     top: 59%;
   }
+  .team-info h2 span {
+    width: 22%;
+  }
 }
 @media screen and (max-width: 640px) {
 }
@@ -101,7 +104,6 @@
   .social-icons a {
     background: #fff;
   }
-
   .social-icons a svg {
     color: #0d0369;
   }

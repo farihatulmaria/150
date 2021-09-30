@@ -24,6 +24,9 @@ section {
 .single-product:hover .on-hover {
   opacity: 1;
 }
+.single-product:hover .on-hover::after {
+  transform: scale(1);
+}
 .single-product {
   margin-bottom: 7.5px;
 }
@@ -109,6 +112,8 @@ section {
   height: 100%;
   opacity: 0.5;
   z-index: -1;
+  transition: all 0.5s;
+  transform: scale(0.5);
 }
 .on-hover h4 {
   text-transform: capitalize;
@@ -129,10 +134,35 @@ section {
   right: 19px;
   top: 8px;
 }
-
+ul {
+  margin: 0;
+  padding: 0 1px;
+}
 /*:nth-child() */
 .product-list .col-md-4:nth-child(2) .single-product,
 .product-list .col-md-4:nth-child(4) .single-product,
 .product-list .col-md-4:nth-child(6) .single-product {
   height: 600px;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  ul {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  ul {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }

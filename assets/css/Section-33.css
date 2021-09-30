@@ -105,3 +105,34 @@
   background: orangered;
   color: #fff;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .product-hover-links {
+    opacity: 1;
+    visibility: visible;
+  }
+  .single-iteam h4 {
+    color: #fff;
+  }
+  .product-img {
+    background: none;
+  }
+  .single-iteam::after {
+    top: -49px;
+    height: 120%;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

@@ -10,7 +10,7 @@ section {
 .borders span {
   text-align: center;
   height: 7px;
-  background: #09e6c8;
+  background: #09e653;
   display: inline-block;
   width: 64px;
   border-radius: 3px;
@@ -36,17 +36,33 @@ section {
 }
 .border-img {
   position: relative;
-  background: #09e6c8;
+  background: #09e653;
   height: 78px;
 }
 .big-border-img {
-  background: #09e6c8;
-  height: 78%;
-  width: 57%;
-  margin-left: 185px;
-  margin-top: 24px;
+  background: #09e653;
+  height: 77%;
+  width: 62%;
+  margin-left: 183px;
+  margin-top: 18px;
 }
 .staffs {
   height: 77%;
   float: right;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
 }

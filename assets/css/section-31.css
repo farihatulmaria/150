@@ -82,3 +82,40 @@ ul {
   background: #ec4646;
   color: #fff;
 }
+.m-l-115 {
+  margin-left: 115px;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  section {
+    height: 67%;
+  }
+  .col-md-3 {
+    width: 33%;
+  }
+  .m-l-115 {
+    margin-left: 0;
+  }
+  .pricing-text h2 span {
+    right: 92px;
+  }
+  .pricing-content svg {
+    left: 28px;
+  }
+  ul {
+    margin-left: 46px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

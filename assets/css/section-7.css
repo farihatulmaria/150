@@ -1,4 +1,4 @@
-.section-padding {
+.clients-commemts {
   margin-top: 50px;
 }
 .line {
@@ -22,6 +22,9 @@ h2 span {
   z-index: -1;
   transition: 0.8s;
 }
+.single-comment {
+  padding: 9px 28px;
+}
 h2:hover span {
   width: 50%;
 }
@@ -31,26 +34,33 @@ img {
 .go {
   margin-top: 50px;
 }
-
-.prev-btn:hover,
-.next-btn:hover {
-  color: darkblue;
-  background: crimson;
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: -11%;
+  padding: 0;
+  border: none;
+}
+.slick-prev {
+  right: 31px;
+  left: auto;
 }
 .slick-prev::before,
 .slick-next::before {
-  font-family: "slick";
   font-size: 37px;
-  line-height: 1;
-  opacity: 0.75;
-}
-.slick-next::before {
-  margin-right: 0px !important;
-  background: #0022e6 !important;
+  opacity: 1;
 }
 .slick-prev::before {
-  margin-left: -40px !important;
-  background: #0022e6 !important;
+  content: "<";
+}
+.slick-next::before {
+  content: ">";
+}
+.slick-next::before {
+  background: #0092e6 !important;
+}
+.slick-prev::before {
+  background: #0092e6 !important;
 }
 
 /* Resoppistive css */

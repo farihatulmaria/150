@@ -105,3 +105,38 @@
   color: #000;
   font-size: 20px;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .contact-form form input[type="submit"] {
+    margin-left: 72px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .contact-header-btn {
+    display: none;
+  }
+  .contact-form {
+    margin-top: 28px;
+  }
+  .contact-form form {
+    margin-left: -35px;
+  }
+  .contact-form form input[type="submit"] {
+    margin-left: 1px;
+    margin-top: 9px;
+  }
+  .contact {
+    height: 110%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
