@@ -57,3 +57,29 @@
   color: #000;
   font-size: 100px;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .offcanvas-menu {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .menu-trigger {
+    margin-left: 74px;
+  }
+  .offcanvas-menu {
+    width: 63%;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

@@ -12,6 +12,7 @@
   display: inline-block;
   margin: 0 15px;
   border-bottom: 3px solid transparent;
+  margin-bottom: 8px;
 }
 .main-menu ul li.active {
   font-weight: 700;

@@ -57,3 +57,27 @@ li.slick-active {
 .slick-dots li button {
   display: none;
 }
+
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .single-service p {
+    font-size: 14px;
+    padding-right: 7px;
+  }
+  img {
+    width: 112%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
