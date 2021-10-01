@@ -40,3 +40,28 @@ h4 {
 .barfiller .fill {
   background: #fff !important;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .bar-fill {
+    margin-top: 0px;
+  }
+  .col-md-6:nth-child(1) {
+    display: none;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

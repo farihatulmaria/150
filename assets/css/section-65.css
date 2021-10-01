@@ -81,3 +81,46 @@ h1 {
   padding: 11px 12px;
   font-size: 13px;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .food-bg1,
+  .food-bg2,
+  .food-bg3 {
+    width: 107%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .single-order {
+    margin-bottom: 30px;
+  }
+  .food-order {
+    margin-right: 7px;
+    padding: 30px 19px;
+  }
+  .food-order2 {
+    border-top: 4px solid #fff;
+    color: #fff;
+    background: #d0963f;
+  }
+  .food-order2 .order-btn {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  .food-order2 .food-order h1 {
+    color: #fff;
+  }
+  .food-order2.food-order h2 {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

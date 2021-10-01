@@ -89,3 +89,30 @@
   font-size: 60px;
   line-height: 70px;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .event-form form input,
+  .event-form form input[type="submit"] {
+    padding: 17px 65px;
+  }
+  .count-down {
+    height: 122%;
+  }
+  #count-down-area {
+    margin-top: 26px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

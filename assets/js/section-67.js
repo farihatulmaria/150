@@ -2,12 +2,11 @@
   "use strict";
 
   $(document).ready(function () {
-    $(".features-items").masonry({});
     $(".sliders").slick({
-      dots: false,
+      dots: true,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpreed: 2000,
+      autoplaySpreed: 900,
     });
   });
 })(jQuery);
