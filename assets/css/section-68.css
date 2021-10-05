@@ -53,11 +53,14 @@
   display: inline-block;
   transition: all 0.5s;
 }
-
+.social-icons a:nth-child(1) {
+  padding: 14px 21px;
+  margin-left: -3px;
+}
 .social-icons a:nth-child(1):hover svg,
 .social-icons a:nth-child(2):hover svg,
 .social-icons a:nth-child(3):hover svg,
-.social-icons a:nth-child(4):hover svg {
+.social-icons a svg {
   color: #fff;
 }
 .social-icons a:nth-child(1) svg {
@@ -84,7 +87,55 @@
 .social-icons a:nth-child(4):hover {
   background: #1a0bf3;
 }
-.about-txt h2 {
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
 }
-.about-txt p {
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .about-txt {
+    top: 49%;
+    right: 54%;
+  }
+  .about-txt2 {
+    left: 53% !important;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .about-title p {
+    padding: 0 0;
+  }
+  .about-img2 {
+    text-align: left;
+    margin-top: 200px;
+  }
+  .about-img img {
+    height: 421px;
+    width: 100%;
+  }
+  .about-txt {
+    top: 72%;
+    right: 2%;
+  }
+  .about-txt2 {
+    left: 0% !important;
+    top: 150% !important;
+  }
+  .social-icons {
+    position: absolute;
+    top: 89%;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  .social-icons2 {
+    left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }

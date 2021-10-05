@@ -94,3 +94,49 @@ p {
 .work-txt .about-btn {
   margin-left: 119px;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .about-txt h1 {
+    padding: 10px 14px;
+    font-size: 36px;
+  }
+  p {
+    padding-right: 14px !important;
+  }
+  .work-txt p {
+    padding: 0 55px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-txt h1 {
+    margin-left: 0;
+    background: transparent;
+    z-index: 99;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    margin-top: 21px;
+  }
+  .work-txt p {
+    padding: 0 19px;
+  }
+  p {
+    padding-left: 20px;
+  }
+  .img-2 {
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

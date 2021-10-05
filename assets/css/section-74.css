@@ -1,5 +1,3 @@
-.sliders {
-}
 .single-sliders {
   display: table;
   width: 100%;
@@ -52,4 +50,27 @@
 }
 .slider-btn:hover {
   color: #fff;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .slider-bg-1 {
+    height: 51vh;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .slider-text h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }

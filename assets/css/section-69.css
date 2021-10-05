@@ -62,3 +62,32 @@ img {
   background: #ff6f2c;
   width: 40px;
 }
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .project-txt::before {
+    display: none;
+  }
+  .title {
+    margin-top: 0;
+    padding: 11px 2px;
+  }
+  .project-txt {
+    padding: 38px 9px;
+  }
+  img {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
