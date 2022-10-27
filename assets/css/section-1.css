@@ -1,10 +1,10 @@
 /* main-css */
 svg {
-  color: #13d3b3;
+  color: #30b3a1;
   margin-right: 5px;
 }
 .bg-form {
-  background: #09ecc6;
+  background: #30b3a1;
   padding: 20px;
 }
 .absolute-text {
@@ -18,7 +18,7 @@ svg {
 }
 .contact-form input[type="submit"] {
   background: #fff;
-  color: #13d3b3;
+  color: #30b3a1;
   font-weight: 800;
   width: 39%;
   margin-top: 14px;
@@ -59,11 +59,12 @@ svg {
 }
 .contact-text ul li {
   padding: 10px 0;
+  display: block;
 }
 a.boxed-btn {
   color: #fff;
-  background: #13d3b3;
-  border: 3px solid #13d3b3;
+  background: #30b3a1;
+  border: 3px solid #30b3a1;
   border-radius: 50px;
   padding: 15px 66px;
   margin-top: 18px !important;
@@ -72,7 +73,7 @@ a.boxed-btn {
 }
 .contact-text a.boxed-btn:hover {
   background: transparent;
-  color: #13d3b3;
+  color: #30b3a1;
 }
 /* Resoppistive css */
 @media screen and (max-width: 1200px) {
