@@ -1,16 +1,22 @@
-section.bg-1 {
-  background: url("https://farihatulmaria.github.io/150/assets/img/strawberries-99551_1920.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 341px;
+:root {
+  --main-color: #120a58;
+  --button-color: #15ad59;
 }
-section.bg-2 {
-  background: url("https://farihatulmaria.github.io/150/assets/img/blueberries-3460423_1920.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+body {
+  overflow: hidden;
+}
+.bg-1,
+.bg-2 {
   background-position: center;
-  height: 341px;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  height: 50vh;
+}
+.bg-1 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/strawberries-99551_1920.jpg");
+}
+.bg-2 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/blueberries-3460423_1920.jpg");
 }
 .zigzag-text {
   position: relative;
@@ -21,30 +27,26 @@ section.bg-2 {
   z-index: -1;
   top: 0;
   left: -4892%;
-  background: #120a58;
+  background: var(--main-color);
   opacity: 0.5;
   content: "";
   width: 5000%;
-  height: 111%;
+  height: 50vh;
   transform: skew(10deg);
 }
 section.bg-2 .zigzag-text::after {
   left: auto;
   right: -4887%;
 }
-.boxed-btn {
-  color: #fff;
-  background: #10e670;
-  padding: 12px 24px;
-  border-radius: 3px;
-  font-weight: 600;
-  border: 2px solid #10e670;
+.new-boxed-btn {
+  background: var(--button-color);
+  border-color: var(--button-color) !important;
   transition: all 0.5s ease-in-out;
 }
-.boxed-btn:hover {
+.new-boxed-btn:hover {
   background: transparent;
   color: #fff;
-  border: 1px solid #fff;
+  border-color: #fff !important;
   border-radius: 31px;
 }
 .zigzag-text p {
@@ -53,7 +55,6 @@ section.bg-2 .zigzag-text::after {
 .zigzag-text h3 {
   padding-top: 60px;
 }
-
 .line {
   height: 10px;
   background: #0be7b7;
