@@ -49,6 +49,9 @@ header {
   border-radius: 10px;
   font-weight: 600;
 }
+#sidenav li {
+  display: block;
+}
 .slider {
   margin-top: 69px;
 }
@@ -246,5 +249,4 @@ footer a {
   color: #fff;
   font-size: 30px;
   margin-top: 8px;
-  margin-right: -60px;
 }
