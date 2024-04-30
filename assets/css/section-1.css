@@ -1,5 +1,5 @@
 :root {
-  --main-color: #30b3a1;
+  --main-color: #054540;
 }
 /* main-css */
 svg {
@@ -10,7 +10,7 @@ svg {
   background: var(--main-color);
   padding: 20px;
 }
-.absolute-text {
+.form-title {
   color: #fff;
   opacity: 0.8;
   font-size: 46px;

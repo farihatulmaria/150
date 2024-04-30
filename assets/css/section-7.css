@@ -1,45 +1,36 @@
-.clients-commemts {
-  margin-top: 50px;
+:root {
+  --main-color: #3f87f5;
 }
-.line {
-  height: 5px;
-  width: 25%;
-  margin-bottom: 14px;
-}
-h2 {
+
+h1 {
   font-weight: 700;
   position: relative;
   z-index: 1;
-  transition: all 0.5s;
 }
-h2 span {
-  width: 0;
-  height: 15%;
+h1 span {
+  width: 50%;
+  height: 12%;
+  border-radius: 50px;
   position: absolute;
-  top: 45px;
-  left: 0;
-  background: #003cff;
-  z-index: -1;
+  top: 50px;
+  background: var(--main-color);
+  background: linear-gradient(#3f87f5, #3f87f5 0%, #2c6ccc 100%);
   transition: 0.8s;
 }
 .single-comment {
-  padding: 9px 28px;
+  padding: 10px 28px;
 }
-h2:hover span {
-  width: 50%;
+.content {
+  display: flex;
+  background: var(--main-color);
 }
 img {
   border-radius: 50%;
-}
-.go {
-  margin-top: 50px;
 }
 .slick-prev,
 .slick-next {
   position: absolute;
   top: -11%;
-  padding: 0;
-  border: none;
 }
 .slick-prev {
   right: 31px;
@@ -47,35 +38,12 @@ img {
 }
 .slick-prev::before,
 .slick-next::before {
-  font-size: 37px;
-  opacity: 1;
+  font-size: 30px;
+  background: var(--main-color) !important;
 }
 .slick-prev::before {
   content: "<";
 }
 .slick-next::before {
   content: ">";
-}
-.slick-next::before {
-  background: #0092e6 !important;
-}
-.slick-prev::before {
-  background: #0092e6 !important;
-}
-
-/* Resoppistive css */
-@media screen and (max-width: 1200px) {
-}
-
-@media screen and (max-width: 980px) {
-}
-@media screen and (max-width: 768px) {
-}
-@media screen and (max-width: 640px) {
-}
-
-@media screen and (max-width: 480px) {
-}
-
-@media screen and (max-width: 320px) {
 }

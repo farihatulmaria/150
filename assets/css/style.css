@@ -2,14 +2,21 @@
   margin: 0;
   padding: 0;
 }
+html {
+  height: 100%;
+}
 body {
   background: #fff;
+  overflow: hidden !important;
+  height: 100%;
 }
 a {
   text-decoration: none;
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 ul li {
   display: inline-block;
@@ -30,21 +37,16 @@ img {
   max-width: 100%;
   height: auto;
 }
-html,
-body {
-  height: 100%;
-}
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
+input:hover,
+input:focus {
   box-shadow: 0 0 0px 100px white inset !important;
 }
 .slick-dots li button {
   display: none;
 }
 /* Resoppistive css */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 }
 
 @media screen and (max-width: 980px) {
@@ -58,4 +60,4 @@ input:-webkit-autofill:focus {
 }
 
 @media screen and (max-width: 320px) {
-}
+} */

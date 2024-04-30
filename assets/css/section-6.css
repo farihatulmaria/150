@@ -1,65 +1,54 @@
-/* main css */
-.pricing-table {
-  margin-top: 50px;
+:root {
+  --main-color: #3f87f5;
+  --black: #333;
+  --white: #fff;
 }
-.pricing-title {
-  margin-bottom: 60px;
+.badge {
+  background: #ee5252;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  font-size: 20px;
+  top: -60px;
+  right: 0px;
+  /* box-shadow: -7px 6px 10px #00000075; */
 }
 .pricing-title h2 {
-  text-transform: capitalize;
-}
-.pricing-title h2 span {
-  color: #21db21;
+  letter-spacing: 10px;
 }
 .pricing-title p {
-  padding: 10px 200px;
+  padding: 1.5rem 20rem;
 }
 .pricing-content {
-  border: 1px solid #666;
-  padding: 54px 14px;
-}
-.pricing-head {
-  margin-bottom: 30px;
+  border-radius: 45px;
 }
 .pricing-head h2 {
-  text-transform: capitalize;
+  letter-spacing: 4px;
 }
 .pricing-head svg {
-  font-size: 74px;
-  margin-top: 8px;
+  font-size: 75px;
 }
 svg {
-  color: #21db21;
-}
-.pricing-body ul {
-  margin: 0;
-  padding: 0;
+  color: var(--black);
 }
 .pricing-body ul li {
   line-height: 2.4;
 }
-.pricing-body ul li svg {
-  margin-right: 6px;
-}
 .pricing-body p {
-  margin-top: 20px;
   font-weight: 700;
-  font-size: 24px;
-  color: #777;
+  font-size: 25px;
 }
-.pricing-btn {
-  border-radius: 32px;
-  background: #21db21;
+.pricing-body button {
   font-weight: 700;
-  text-transform: capitalize;
-  color: #fff;
-  border: 2px solid #21db21;
-  transition: all 0.5s ease-in-out;
-  padding: 11px 31px;
+  transition: all 0.5s;
 }
-.pricing-btn:hover {
-  background: transparent;
-  color: #21db21;
+.hot-pricing-content .pricing-body button:hover {
+  background: var(--white) !important;
+  color: var(--black) !important;
+}
+.pricing-body button:hover {
+  background: var(--black) !important;
+  color: var(--white) !important;
 }
 /* Resoppistive css */
 @media screen and (max-width: 1200px) {

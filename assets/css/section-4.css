@@ -1,37 +1,31 @@
+:root {
+  --main-color: #ffffff;
+}
+body {
+  background: #022242;
+  color: #fff;
+}
 .service-title {
-  margin-top: 50px;
   margin-bottom: 30px;
 }
 .service-title h1 {
+  font-size: 100px;
   position: relative;
-  margin-bottom: 40px;
-  z-index: 1;
 }
+
 .service-title h1::before {
   position: absolute;
-  background: #7d1db4;
-  width: 96px;
-  height: 5px;
-  bottom: 0;
-  left: 46%;
-  content: "";
-  top: 54px;
+  top: -60px;
+  left: 0;
+  font-size: 200px;
+  color: linear-gradient(45deg, #1555 0%, #1212 35%, #fff 100%);
+  z-index: -1;
+  opacity: 0.5;
+  content: "Why chose Us?";
 }
-.service-title h1::after {
-  position: absolute;
-  width: 40px;
-  height: 5px;
-  background: #ff96a7;
-  bottom: 0;
-  left: 48%;
-  content: "";
-  top: 54px;
-}
-.section-icon svg {
-  color: #ee536d;
+.service-icon svg {
+  color: var(--main-color);
   font-size: 60px;
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
 .section-text {
   font-size: 14px;
@@ -44,25 +38,13 @@
 @media screen and (max-width: 980px) {
 }
 @media screen and (max-width: 768px) {
-  .service-title h1::before {
-    left: 45%;
-  }
-  .service-title h1::after {
-    left: 48%;
-  }
 }
 @media screen and (max-width: 640px) {
-  .section-text {
-    padding: 0 50px;
-  }
 }
 
 @media screen and (max-width: 480px) {
   .service-title h1::before {
-    left: 35%;
-  }
-  .service-title h1::after {
-    left: 43%;
+    opacity: 0;
   }
   .section-text {
     font-size: 14px;
@@ -70,7 +52,7 @@
     margin-top: -19px;
     padding: 0 50px;
   }
-  .section-icon svg {
+  .service-icon svg {
     color: #ee536d;
     font-size: 49px;
   }

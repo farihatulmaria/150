@@ -3,8 +3,6 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
 }
 header ul {
-  margin: 0;
-  padding: 0;
   float: right;
   margin-right: -85px;
 }
@@ -27,18 +25,7 @@ svg {
 }
 /*top-banner*/
 .top-banner {
-  padding: 20px 0;
-  line-height: 0;
   font-weight: 600;
-}
-.top-banner a {
-  color: #fff;
-}
-.top-banner a:nth-child(2) {
-  margin-left: 17px;
-}
-.top-banner .email-and-number {
-  float: inline-end;
 }
 /*head*/
 .logo a {
@@ -47,8 +34,6 @@ svg {
 }
 .logo a svg {
   font-size: 40px;
-  margin-top: 10px;
-  margin-bottom: 2px;
 }
 
 /* homepages-slider */

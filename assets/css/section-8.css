@@ -1,34 +1,26 @@
-.section-padding {
-  margin-top: 60px;
+:root {
+  --main-color: #3f87f5;
 }
 .section-btn {
-  color: #15c415;
+  color: var(--main-color);
   font-weight: 600;
   transition: all 0.5s;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  /* margin: 20px 0; */
 }
 .section-btn:hover {
-  background: #15c415;
+  background: var(--main-color);
   color: #fff;
-  border-radius: 50px;
-}
-.section-btn a i:hover {
-  padding-left: 7px;
 }
 .offer {
   transition: all 0.5s;
   border: 1px solid #f5f5f5;
 }
-.offer:hover {
-  box-shadow: 0 0 10px #666;
-}
 img {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
-h2 {
-  margin-bottom: 50px;
+h1 span {
+  background: var(--main-color);
+  padding: 0 10px;
 }
 
 /* Resoppistive css */
@@ -47,7 +39,7 @@ h2 {
     margin-bottom: 30px;
   }
   .section-btn {
-    background: #15c415;
+    background: var(--main-color);
     color: #fff;
     border-radius: 50px;
   }

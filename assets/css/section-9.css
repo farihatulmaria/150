@@ -1,27 +1,22 @@
-.section-padding {
-  margin-top: 70px;
-}
-.section-title {
-  margin-bottom: 70px;
+:root {
+  --main-color: #3f87f5;
+  --black: #151515;
 }
 p {
   font-style: italic;
 }
-.borders {
+.lines {
   text-align: center !important;
 }
-.borders span {
-  text-align: center;
+.lines span {
   height: 5px;
-  background: #14e90d;
+  background: var(--main-color);
   display: inline-block;
   width: 75px;
-  border-radius: 3px;
 }
-.black-border {
-  background: #000 !important;
-  width: 47px !important;
-  margin: 0 14px;
+.black-line {
+  background: var(--black) !important;
+  width: 45px !important;
 }
 .single-comments {
   padding: 29px 3px 29px 100px;
@@ -39,7 +34,7 @@ p {
   position: absolute;
   left: 27px;
   top: 50%;
-  color: #14e90d;
+  color: var(--main-color);
   font-size: 35px;
   line-height: 30px;
   margin-top: -15px;
